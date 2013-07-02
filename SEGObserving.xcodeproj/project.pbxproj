@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A5A8BE5A6B343E0AD9A9067 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7160512DF947431086F9FC0D /* libPods.a */; };
 		C0A909DC1782FF33001E0B89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A909DB1782FF33001E0B89 /* UIKit.framework */; };
 		C0A909DE1782FF33001E0B89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A909DD1782FF33001E0B89 /* Foundation.framework */; };
 		C0A909E01782FF33001E0B89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A909DF1782FF33001E0B89 /* CoreGraphics.framework */; };
@@ -16,11 +17,10 @@
 		C0A909EE1782FF33001E0B89 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A909ED1782FF33001E0B89 /* Default.png */; };
 		C0A909F01782FF33001E0B89 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A909EF1782FF33001E0B89 /* Default@2x.png */; };
 		C0A909F21782FF33001E0B89 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A909F11782FF33001E0B89 /* Default-568h@2x.png */; };
-		C0A909FB1782FF78001E0B89 /* SEGObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A909FA1782FF78001E0B89 /* SEGObserver.m */; };
-		C0A909FE1782FFA4001E0B89 /* NSObject+SEGObserving.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A909FD1782FFA4001E0B89 /* NSObject+SEGObserving.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7160512DF947431086F9FC0D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A909D81782FF33001E0B89 /* SEGObserving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEGObserving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A909DB1782FF33001E0B89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C0A909DD1782FF33001E0B89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,11 +34,7 @@
 		C0A909ED1782FF33001E0B89 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C0A909EF1782FF33001E0B89 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C0A909F11782FF33001E0B89 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		C0A909F91782FF78001E0B89 /* SEGObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGObserver.h; sourceTree = "<group>"; };
-		C0A909FA1782FF78001E0B89 /* SEGObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGObserver.m; sourceTree = "<group>"; };
-		C0A909FC1782FFA4001E0B89 /* NSObject+SEGObserving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SEGObserving.h"; sourceTree = "<group>"; };
-		C0A909FD1782FFA4001E0B89 /* NSObject+SEGObserving.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SEGObserving.m"; sourceTree = "<group>"; };
-		C0A909FF17830E60001E0B89 /* SEGObserving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGObserving.h; sourceTree = "<group>"; };
+		D9E95704FA6D4A4DA114C72E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +45,7 @@
 				C0A909DC1782FF33001E0B89 /* UIKit.framework in Frameworks */,
 				C0A909DE1782FF33001E0B89 /* Foundation.framework in Frameworks */,
 				C0A909E01782FF33001E0B89 /* CoreGraphics.framework in Frameworks */,
+				0A5A8BE5A6B343E0AD9A9067 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,10 +55,10 @@
 		C0A909CF1782FF33001E0B89 = {
 			isa = PBXGroup;
 			children = (
-				C0A909F81782FF46001E0B89 /* Source */,
 				C0A909E11782FF33001E0B89 /* SEGObserving */,
 				C0A909DA1782FF33001E0B89 /* Frameworks */,
 				C0A909D91782FF33001E0B89 /* Products */,
+				D9E95704FA6D4A4DA114C72E /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +76,7 @@
 				C0A909DB1782FF33001E0B89 /* UIKit.framework */,
 				C0A909DD1782FF33001E0B89 /* Foundation.framework */,
 				C0A909DF1782FF33001E0B89 /* CoreGraphics.framework */,
+				7160512DF947431086F9FC0D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,18 +105,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C0A909F81782FF46001E0B89 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				C0A909F91782FF78001E0B89 /* SEGObserver.h */,
-				C0A909FA1782FF78001E0B89 /* SEGObserver.m */,
-				C0A909FC1782FFA4001E0B89 /* NSObject+SEGObserving.h */,
-				C0A909FD1782FFA4001E0B89 /* NSObject+SEGObserving.m */,
-				C0A909FF17830E60001E0B89 /* SEGObserving.h */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0A909F51782FF33001E0B89 /* Build configuration list for PBXNativeTarget "SEGObserving" */;
 			buildPhases = (
+				FCB917FA09C74ADFA44DD465 /* Check Pods Manifest.lock */,
 				C0A909D41782FF33001E0B89 /* Sources */,
 				C0A909D51782FF33001E0B89 /* Frameworks */,
 				C0A909D61782FF33001E0B89 /* Resources */,
+				0A00A215FAD546D2B33B9A2F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +168,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A00A215FAD546D2B33B9A2F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		FCB917FA09C74ADFA44DD465 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0A909D41782FF33001E0B89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -187,8 +206,6 @@
 			files = (
 				C0A909E81782FF33001E0B89 /* main.m in Sources */,
 				C0A909EC1782FF33001E0B89 /* SEGAppDelegate.m in Sources */,
-				C0A909FB1782FF78001E0B89 /* SEGObserver.m in Sources */,
-				C0A909FE1782FFA4001E0B89 /* NSObject+SEGObserving.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +281,7 @@
 		};
 		C0A909F61782FF33001E0B89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E95704FA6D4A4DA114C72E /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SEGObserving/SEGObserving-Prefix.pch";
@@ -275,6 +293,7 @@
 		};
 		C0A909F71782FF33001E0B89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E95704FA6D4A4DA114C72E /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SEGObserving/SEGObserving-Prefix.pch";
@@ -303,6 +322,7 @@
 				C0A909F71782FF33001E0B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

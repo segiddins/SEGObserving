@@ -1,0 +1,14 @@
+PODS:
+  - SEGObserving (0.0.1)
+
+DEPENDENCIES:
+  - SEGObserving (from `https://github.com/segiddins/SEGObserving`)
+
+EXTERNAL SOURCES:
+  SEGObserving:
+    :git: https://github.com/segiddins/SEGObserving
+
+SPEC CHECKSUMS:
+  SEGObserving: 2286c14fbf7607dc13443806b969eaa8e9f1dfcd
+
+COCOAPODS: 0.21.0

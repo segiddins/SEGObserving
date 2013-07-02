@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.summary      = 'A pretty block-based wrapper around KVO'
   s.author       = { 'Samuel E. Giddins' => 'segiddins@segiddins.me' }
   s.source       = { :git => "https://github.com/segiddins/SEGObserving.git", :tag => "v#{s.version}" }
-  s.source_files = 'Source/*'
+  s.source_files = 'Classes', 'External/**/*.{h,m}', 'SEGObserving'
   s.prefix_header_contents = <<-EOS
 #ifdef __OBJC__
 #import <Foundation/Foundation.h>
