@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :git: https://github.com/segiddins/SEGObserving
 
 SPEC CHECKSUMS:
-  SEGObserving: b3b49699edb571c27ffc0276b38c9e1a4956e843
+  SEGObserving: 469cd093a6937dc77642239229221d208dd5f2d4
 
 COCOAPODS: 0.21.0

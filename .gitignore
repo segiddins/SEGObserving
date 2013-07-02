@@ -10,9 +10,11 @@ build/
 *.perspectivev3
 !default.perspectivev3
 *.xcworkspace
+!SEGObserving.xcworkspace
 !default.xcworkspace
 xcuserdata
 profile
 *.moved-aside
 DerivedData
 .idea/
+Pods/
