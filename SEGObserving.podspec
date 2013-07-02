@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
      LICENSE
    }
   s.homepage     = 'https://github.com/segiddins/SEGObserving'
-  s.summary      = 'A pretty block-based wrapper around KVO'
+  s.summary      = 'A pretty block-based wrapper around KVO.'
   s.author       = { 'Samuel E. Giddins' => 'segiddins@segiddins.me' }
   s.source       = { :git => "https://github.com/segiddins/SEGObserving.git", :tag => "v#{s.version}" }
   s.source_files = 'Source/*'
