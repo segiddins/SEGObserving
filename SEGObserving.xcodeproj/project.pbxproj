@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E1D2FA57CBDC4DAD3D538D8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7160512DF947431086F9FC0D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A909D81782FF33001E0B89 /* SEGObserving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEGObserving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A909DB1782FF33001E0B89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -34,7 +35,7 @@
 		C0A909ED1782FF33001E0B89 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C0A909EF1782FF33001E0B89 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C0A909F11782FF33001E0B89 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D9E95704FA6D4A4DA114C72E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		E85D1B26C40B1E1836DC54E2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +53,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63D8FA50337241B09C21161D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E85D1B26C40B1E1836DC54E2 /* Pods.debug.xcconfig */,
+				5E1D2FA57CBDC4DAD3D538D8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C0A909CF1782FF33001E0B89 = {
 			isa = PBXGroup;
 			children = (
 				C0A909E11782FF33001E0B89 /* SEGObserving */,
 				C0A909DA1782FF33001E0B89 /* Frameworks */,
 				C0A909D91782FF33001E0B89 /* Products */,
-				D9E95704FA6D4A4DA114C72E /* Pods.xcconfig */,
+				63D8FA50337241B09C21161D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,7 +191,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 		};
 		FCB917FA09C74ADFA44DD465 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -281,7 +291,7 @@
 		};
 		C0A909F61782FF33001E0B89 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9E95704FA6D4A4DA114C72E /* Pods.xcconfig */;
+			baseConfigurationReference = E85D1B26C40B1E1836DC54E2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SEGObserving/SEGObserving-Prefix.pch";
@@ -293,7 +303,7 @@
 		};
 		C0A909F71782FF33001E0B89 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9E95704FA6D4A4DA114C72E /* Pods.xcconfig */;
+			baseConfigurationReference = 5E1D2FA57CBDC4DAD3D538D8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SEGObserving/SEGObserving-Prefix.pch";
